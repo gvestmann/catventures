@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function Layout ({children}) {
     return (
-        <div>
-            <div className="px-2 md:px-24 bg-black text-white w-full justify-content">
+        <div className="pb-20 bg-gradient-to-r from-green-400 to-blue-500 ...">
+            <div className="px-2 py-12 md:px-24 text-white">
                 <Link href="/">
                     <a className="text-white uppercase text-5xl py-8 my-2">
                         CATVENTURES 
@@ -14,7 +14,6 @@ export default function Layout ({children}) {
                 </div> 
             </div>
             { children}
-            <div>Footer</div>
         </div>
     )
 }

@@ -1,6 +1,6 @@
-//import '../css/style.css'
-//import '../css/tailwind.css'
-import {Container, Row, Col} from 'react-bootstrap';
+import '../css/style.css'
+import '../css/tailwind.css'
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
