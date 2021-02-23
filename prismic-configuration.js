@@ -1,3 +1,4 @@
+// This is Prismics configuration files. I provide my Prismic endpoint, submit functions for the client to use and create the Prismic client's options.
 import Prismic from "prismic-javascript";
 
 export const apiEndpoint = "https://catventures.cdn.prismic.io/api/v2";

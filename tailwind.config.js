@@ -1,4 +1,4 @@
-// tailwind.config.js
+// Tailwind config, basically from the documenation
 module.exports = {
     purge: false,
     theme: {},

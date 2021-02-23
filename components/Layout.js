@@ -1,5 +1,7 @@
+// This is Next.js's linkfunction
 import Link from "next/link"
 
+// The layout specifies a few things; the page's navbar + which other content to use (aka "Children")
 export default function Layout ({children}) {
     return (
         <div className="pb-20 bg-gradient-to-r from-green-400 to-blue-500 ...">
@@ -13,7 +15,8 @@ export default function Layout ({children}) {
                 <h2 className="text-base m-2">The Adventures of Gummi's prisoner</h2>
                 </div> 
             </div>
-            { children}
+            {/* These are my cat's kittens (blog posts provided by index.js) */}
+            { children }
         </div>
     )
 }
